@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./CSS/my-portfolio-css.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Cristina Swenson</title> 
+    </head>
+
+    <!--BODY STARTS HERE-->
+    <body class="Background">
+
+        <!--NAVBAR STARTS HERE-->
+
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--NAVBAR ENDS HERE-->
+
+        <br>
+        <br>
+
+        <!--BACKGROUND VIDEO STARTS HERE-->
+
+        <div id="Home">
+            <video autoplay loop muted id="Cat_Video">
+                <source src="images/videos/cat-by-computer.mp4">
+            </video>
+        </div>
+
+        <!--Video Text-->
+        <div class="Video_text">
+            <h1 class="colored-text">Cristina's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is Cristina Swenson. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--BACKGROUNDGROUND VIDEO ENDS HERE-->
+
+        <!--ABOUT SECTION BEGINGS HERE-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/orange-cat.jpg" alt="This image is not here">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code. As a cat mom of one semi-fluffy feline, I enjoy taking lots of pictures of my cat.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    <br>
+                    <br> I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--ABOUT SECTION ENDS HERE-->
+
+
+        <!--GITHUB SECTION STARTS HERE-->
+        <div class="Row" Id="GitHub">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/CristSwen" target="_blank">Cristina's GitHub</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/CristSwen" target="_blank"><img src="images/GitHub.png" alt="No gitHub image"></a>
+            </div>
+        </div>
+
+        <!--GITHUB SECTION ENDS HERE-->
+
+        <!--CONTACT SECTION STARTS HERE-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/black-cat.jpg" alt="Supposed Black cat image">
+            </div>
+            <!--Contact form, Right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xvonzypk" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+
+        <!--CONTACT SECTION ENDS HERE-->
+
+        <!--FOOTER SECTION STARTS HERE-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+        <!--FOOTER SECTION ENDS HERE-->
+
+
+    </body>
+</html>
