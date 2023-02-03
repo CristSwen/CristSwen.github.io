@@ -21,7 +21,7 @@ h1:hover {
 
 /*Styling for portfolio title text*/
 .colored-text {
-    color: #F4A460;
+    color: #FFE4C4;
 }
 
 /*Paragraph elements*/
@@ -224,7 +224,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #4d4d4d;
+    background-color: #FFE4C4;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form while keeping the rest of the formatting from Column_1 or Column_2 */
