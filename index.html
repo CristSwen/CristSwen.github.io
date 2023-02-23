@@ -37,11 +37,11 @@
             <h1 class="colored-text">Cristina's Portfolio</h1>
             <strong>
                 <p class="center">
-                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
-                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
-                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    <q>Any fool can write code that a computer can understand.
+                        <br>Good programmers write code that humans can understand.
+                        <br>
                     </q>
-                    <br> -Joseph Weizenbaum
+                    <br> -Marin Fowler
                     <br>
                     <br> My name is Cristina Swenson. Welcome to my portfolio website. On it, I will tell you about my background and experience.
                     <br>
@@ -52,17 +52,75 @@
 
         <!--BACKGROUNDGROUND VIDEO ENDS HERE-->
 
+        <!--SLIDESHOW SECTION BEGINS HERE-->
+        <div id="Slideshow">
+            <div id="Slideshow_Background">
+                <div id="Slideshow_Container">
+
+                    <!--1 out of 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/myself.jpg" alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project</div>
+                    </div>
+
+                    <!--2 out of 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/Html-css-js.jpg" alt="HTML, CSS, and JS Logos">
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+
+                    <!--3 out of 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/python.jpg" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+
+                    <!--4 out of 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/Csharp.jpg" alt="C# logo">
+                        <div class="text">C#, .NET framework, ASP.NET, MVC, </div>
+                    </div>
+
+                    <!--5 out of 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/sql.jpg.png" alt="SQL logo">
+                        <div class="text">back end development, databases, and SQL</div>
+                    </div>
+
+                    <!--6 out of 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/catpooter.jpg" alt="Replace with a picture of your choosing">
+                        <div class="text">Contact me Now!</div>
+                    </div>
+                    <!--Prev and next buttons-->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+        </div>
+
         <!--ABOUT SECTION BEGINGS HERE-->
         <div class="Row" id="About">
             <!--Left column-->
             <div class="Column_2">
-                <img src="images/orange-cat.jpg" alt="This image is not here">
+                <img class="column_images" src="images/orange-cat.jpg" alt="This image is not here">
             </div>
             <!--Right column-->
             <div class="Column_1">
                 <h1>About</h1>
+                
                 <p>
-                    I am a software developer who loves to code. As a cat mom of one semi-fluffy feline, I enjoy taking lots of pictures of my cat.
+                    I am a software developer who loves to code. I also enjoy taking lots of pictures of my cat.
                     <br>
                     <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
                     <br>
@@ -79,6 +137,7 @@
             <!--Left Column-->
             <div class="Column_1">
                 <h1>GitHub</h1>
+                
                 <p>
                     You can view my coding projects on my GitHub profile here:
                     <br>
@@ -94,29 +153,39 @@
         <!--GITHUB SECTION ENDS HERE-->
 
         <!--CONTACT SECTION STARTS HERE-->
-        <div class="Row" id="Contact">
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="images/black-cat.jpg" alt="Supposed Black cat image">
-            </div>
-            <!--Contact form, Right column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
+            <div class="form-popup" id="myForm">
+               <!-- <img src="images/black-cat.jpg" alt="Supposed Black cat image">-->
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/xvonzypk" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
+                <form action="https://formspree.io/f/xvonzypk" method="POST" class="form-container"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label for="name"><b>Name:</b></label>
                         <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
+                    <label for="email"><b>Email:</b></label>
                         <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
+                    <label for="phone"><b>Phone Number:</b></label>
+                        <input type="text" id="phone_Number" name="phone_Number" placeholder="Please enter your Phone Number here">
+                    <label for="message"><b>Message:</b></label>
                         <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
+                        
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
                 </form>
             </div>
         </div>
 
 
         <!--CONTACT SECTION ENDS HERE-->
+        
+        <!--Fade Effects-->
+        <script>
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+        </script>
+        <!--End fade effects-->
 
         <!--FOOTER SECTION STARTS HERE-->
         <footer>
@@ -127,6 +196,6 @@
         </footer>
         <!--FOOTER SECTION ENDS HERE-->
 
-
+        <script src="JS/my-portfolio-js.js"></script>
     </body>
 </html>
