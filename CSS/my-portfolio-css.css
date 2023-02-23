@@ -225,6 +225,7 @@ footer {
     padding-top: 4%;
     text-align: relative;
     margin: auto;
+    position: relative;
 }
 
 #Slideshow_Container a {
