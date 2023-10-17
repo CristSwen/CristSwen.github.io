@@ -5,7 +5,6 @@ body {
     transition: 3s opacity;
     letter-spacing: .2vw;
     font-family: Avant Garde, Helvetica;
-    font-size: 1.5vw;
     overflow-x: hidden;
     user-select: none;
 }
@@ -21,6 +20,7 @@ h1 {
     text-align: center;
     margin-top: 3%;
     color: #F4A460;
+    font-size: 2.5vw;
 }
 
 /*Heading 1 element hover effect*/
@@ -41,9 +41,9 @@ p {
     font-family: Geneva, Verdana, sans-serif;
     text-align: justify;
     letter-spacing: 1px;
-    font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 10em;
 }
 
 /*Paragraph element hover effect*/
@@ -363,6 +363,7 @@ footer {
     display: table;
     clear: both;
 }
+
 
 /****** END OF TABLE STYLING *******/
 
