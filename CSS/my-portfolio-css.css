@@ -19,7 +19,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 3%;
-    color: #F4A460;
+    color: #AA4A44;
     font-size: 2.5vw;
 }
 
@@ -32,7 +32,7 @@ h1:hover {
 
 /*Styling for portfolio title text*/
 .colored-text {
-    color: #F4A460;
+    color: #AA4A44;
     font-size: 5vw;
 }
 
@@ -43,7 +43,7 @@ p {
     letter-spacing: 1px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 10em;
+    font-size: 25px !important;
 }
 
 /*Paragraph element hover effect*/
@@ -334,6 +334,8 @@ footer {
     background-color: #FFFFFF;
     border-radius: 25px;
     /*border-style: inset;*/
+    border-style: solid;
+    border-color: #343434;
     margin-left: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
