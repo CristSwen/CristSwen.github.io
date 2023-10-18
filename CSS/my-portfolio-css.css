@@ -41,9 +41,9 @@ p {
     font-family: Geneva, Verdana, sans-serif;
     text-align: justify;
     letter-spacing: 1px;
-    padding-left: 5vh; /*20px for left and right*/
-    padding-right: 5vh;
-    font-size: 2.43vh !important;
+    padding-left: 2vw; /*20px for left and right*/
+    padding-right: 2vw;
+    font-size: 1.2vw !important;
 }
 
 /*Paragraph element hover effect*/
@@ -330,7 +330,7 @@ footer {
     width: 40%;
     padding: 2vw;
     padding-top: 3%;
-    height: 200vh;
+    height: 200vw;
     background-color: #FFFFFF;
     border-radius: 25px;
     /*border-style: inset;*/
