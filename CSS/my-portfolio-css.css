@@ -330,7 +330,7 @@ footer {
     width: 40%;
     padding: 2vw;
     padding-top: 3%;
-    height: 200%;
+    height: 30vw;
     background-color: #FFFFFF;
     border-radius: 25px;
     /*border-style: inset;*/
@@ -347,7 +347,7 @@ footer {
     width: 40%;
     padding: 2vw;
     padding-top: 3%;
-    height: 200%; /*200vw*/
+    height: 30vw; /*200vw*/
     background-color: #FFFFFF;
     border-radius: 25px;
     border-style: solid;
