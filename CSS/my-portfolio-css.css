@@ -336,9 +336,9 @@ footer {
     /*border-style: inset;*/
     border-style: solid;
     border-color: #343434;
-    margin-left: 10vh;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
@@ -347,14 +347,14 @@ footer {
     width: 40%;
     padding: 2vw;
     padding-top: 3%;
-    height: 200vh;
+    height: 200vw;
     background-color: #FFFFFF;
     border-radius: 25px;
     border-style: solid;
     border-color: #343434;
-    margin-right: 10vh;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
