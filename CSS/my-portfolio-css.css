@@ -347,7 +347,7 @@ footer {
     width: 40%;
     padding: 2vw;
     padding-top: 3%;
-    height: 200vw;
+    height: 200%; /*200vw*/
     background-color: #FFFFFF;
     border-radius: 25px;
     border-style: solid;
@@ -544,11 +544,11 @@ button:hover, .form-container .btn:hover {
 
 @media screen and (min-width: 1725px) {
     .Column_1 {
-        height: 550px;
+        height: 30vw;
     }
 
     .Column_2 {
-        height: 550px;
+        height: 30vw;
     }
 }
 
