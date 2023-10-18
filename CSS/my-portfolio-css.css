@@ -43,7 +43,7 @@ p {
     letter-spacing: 1px;
     padding-left: 5vh; /*20px for left and right*/
     padding-right: 5vh;
-    font-size: 2.5vh !important;
+    font-size: 2.4vh !important;
 }
 
 /*Paragraph element hover effect*/
@@ -134,7 +134,7 @@ footer {
     padding: 14px 16px;
     text-decoration: none;
     font-family: Avant Garde, Helvetica;
-    font-size: 20px;
+    font-size: 3vh;
     text-align: center;
     position: relative;
     -webkit-animation: moveNavText 5.75s;
@@ -328,33 +328,33 @@ footer {
 .Column_1 {
     float: left;
     width: 40%;
-    padding: 10px;
+    padding: 2vw;
     padding-top: 3%;
-    height: 450px;
+    height: 200vh;
     background-color: #FFFFFF;
     border-radius: 25px;
     /*border-style: inset;*/
     border-style: solid;
     border-color: #343434;
-    margin-left: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
 .Column_2 {
     float: right;
     width: 40%;
-    padding: 10px;
-    padding-top: 1.9%;
-    height: 450px;
+    padding: 2vw;
+    padding-top: 3%;
+    height: 200vh;
     background-color: #FFFFFF;
     border-radius: 25px;
     border-style: solid;
     border-color: #343434;
-    margin-right: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-right: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
