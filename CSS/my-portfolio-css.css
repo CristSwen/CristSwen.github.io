@@ -469,6 +469,16 @@ button:hover, .form-container .btn:hover {
 /******* END OF CONTACT FORM STYLING *******/
 
 
+/******* START OF ABOUT ME PAGE STYLING ********/
+
+.AboutMe_Img {
+    height: 100vw;
+}
+
+/******** END OF ABOUT ME PAGE STYLING**********/
+
+
+
 /******* START OF MEDIA QUERY STYLING ******/
 
 @media screen and (max-width: 527px) {
