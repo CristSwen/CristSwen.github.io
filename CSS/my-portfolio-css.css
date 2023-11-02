@@ -547,7 +547,7 @@ button:hover, .form-container .btn:hover {
 }
 
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #AA4A44;
     color: white;
     transform: rotateY(180deg);
 }
