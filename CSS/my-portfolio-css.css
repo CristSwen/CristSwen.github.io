@@ -30,18 +30,21 @@ body.fade-out {
     transition: transform 1s;
 }*/
 
+/*Hover effects for all the h1 in Index*/
 .Index_h1:hover {
     filter: grayscale(5%);
     transform: scale(1.1);
     transition: transform 1s;
 }
 
+/*Hover effects for all the h1 in Index*/
 .colored-text:hover {
     filter: grayscale(5%);
     transform: scale(1.1);
     transition: transform 1s;
 }
 
+/*Styling for all the h1 elements on the Index page*/
 .Index_h1 {
     font-family: "Brush Script MT", Cursive;
     text-transform: uppercase;
@@ -503,7 +506,8 @@ button:hover, .form-container .btn:hover {
 }
 
 .AboutMe_h1 {
-    margin-top: 6vw !important; 
+    margin-top: 10vw; 
+    text-align: center;
 }
 
 /******** END OF ABOUT ME PAGE STYLING**********/
