@@ -14,7 +14,35 @@ body.fade-out {
 }
 
 /*Heading 1 elements*/
-h1 {
+/*h1 {
+    font-family: "Brush Script MT", Cursive;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3%;
+    color: #AA4A44;
+    font-size: 2.5vw;
+}*/
+
+/*Heading 1 element hover effect*/
+/*h1:hover {
+    filter: grayscale(5%);
+    transform: scale(1.1);
+    transition: transform 1s;
+}*/
+
+.Index_h1:hover {
+    filter: grayscale(5%);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.colored-text:hover {
+    filter: grayscale(5%);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.Index_h1 {
     font-family: "Brush Script MT", Cursive;
     text-transform: uppercase;
     text-align: center;
@@ -23,17 +51,14 @@ h1 {
     font-size: 2.5vw;
 }
 
-/*Heading 1 element hover effect*/
-h1:hover {
-    filter: grayscale(5%);
-    transform: scale(1.1);
-    transition: transform 1s;
-}
-
 /*Styling for portfolio title text*/
 .colored-text {
     color: #AA4A44;
     font-size: 5vw;
+    font-family: "Brush Script MT", Cursive;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3%;
 }
 
 /*Paragraph elements*/
@@ -472,7 +497,13 @@ button:hover, .form-container .btn:hover {
 /******* START OF ABOUT ME PAGE STYLING ********/
 
 .AboutMe_Img {
-    height: 100vw;
+    height: 50vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+
+.AboutMe_h1 {
+    margin-top: 6vw !important; 
 }
 
 /******** END OF ABOUT ME PAGE STYLING**********/
