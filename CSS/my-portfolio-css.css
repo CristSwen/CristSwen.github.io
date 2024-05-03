@@ -454,7 +454,7 @@ footer {
     padding: 1vw;
     background-color: white;
     border-style: solid;
-    border-color: #F4A460;
+    border-color: #AA4A44;
 }
 
 .form-container input[type=text] {
@@ -479,7 +479,7 @@ button {
 
 button:hover, .form-container .btn:hover {
     color: white;
-    background-color: black;
+    background-color: #AA4A44;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: silver;
@@ -500,7 +500,7 @@ button:hover, .form-container .btn:hover {
 
 .form-container .cancel:hover {
     color: white;
-    background-color: darkred;
+    background-color: #AA4A44;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
