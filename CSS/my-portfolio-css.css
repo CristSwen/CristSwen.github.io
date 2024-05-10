@@ -223,6 +223,11 @@ footer {
     position: relative;
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
+    text-shadow: 5px 5px 10px 2px rgba(0,0,0,.8)
+}
+
+.video_text_style {
+    text-shadow: 5px 5px 10px 2px rgba(0,0,0,.8)
 }
 
 /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
@@ -361,9 +366,6 @@ footer {
     height: 30vw;
     background-color: #FFFFFF;
     border-radius: 25px;
-    /*border-style: inset;*/
-    border-style: solid;
-    border-color: #343434;
     margin-left: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
@@ -378,8 +380,6 @@ footer {
     height: 30vw; /*200vw*/
     background-color: #FFFFFF;
     border-radius: 25px;
-    border-style: solid;
-    border-color: #343434;
     margin-right: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
@@ -454,6 +454,7 @@ footer {
     padding: 1vw;
     background-color: white;
     border-style: solid;
+    border-radius: 10px;
     border-color: #AA4A44;
 }
 
