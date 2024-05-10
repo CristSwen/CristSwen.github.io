@@ -34,7 +34,7 @@ body.fade-out {
 .Index_h1:hover {
     filter: grayscale(5%);
     transform: scale(1.1);
-    transition: transform 1s;
+    transition: transform 1s, filter 0.5s;
 }
 
 /*Hover effects for all the h1 in Index*/
@@ -52,6 +52,7 @@ body.fade-out {
     margin-top: 3%;
     color: #AA4A44;
     font-size: 2.5vw;
+    transition: transform 1s, filter 0.5s;
 }
 
 /*Styling for portfolio title text*/
@@ -73,11 +74,12 @@ p {
     padding-left: 2vw; /*20px for left and right*/
     padding-right: 2vw;
     font-size: 1.2vw !important;
+    transition: transform 1s, filter 0.5s;
 }
 
 /*Paragraph element hover effect*/
 p:hover {
-    transition: 1s;
+    transition: transform 1s, filter 0.5s;
     transform: scale(1.01);
 }
 
@@ -114,12 +116,13 @@ img {
     max-height: 100%;
     display: block; /* By specifying the block display it ensure the images are able to be centered */
     margin: auto auto auto auto; /* In combination with "margin-right: auto;" this centers the image */
+    transition: transform 1s, filter 0.5s;
 }
 
 /* Image hover effects */
 img:hover {
     filter: grayscale(5%);
-    transition: 1s;
+    transition: transform 1s, filter 0.5s;
 }
 
 /*Styling for footer element*/
@@ -375,11 +378,6 @@ footer {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    transition: transform 1s, filter 0.5s;
-}
-
-.Column_1 :hover {
-    transition: transform 1s, filter 0.5s;
 }
 
 .Column_2 {
@@ -394,10 +392,6 @@ footer {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-}
-
-.Column_2 :hover {
-    transition: transform 1s, filter 0.5s;
 }
 
 
