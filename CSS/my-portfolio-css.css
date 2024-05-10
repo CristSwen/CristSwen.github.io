@@ -39,9 +39,9 @@ body.fade-out {
 
 /*Hover effects for all the h1 in Index*/
 .colored-text:hover {
-    filter: grayscale(5%);
+    filter: grayscale(0%);
     transform: scale(1.1);
-    transition: transform 1s;
+    transition: transform 1s, filter 0.5s;
 }
 
 /*Styling for all the h1 elements on the Index page*/
@@ -62,6 +62,7 @@ body.fade-out {
     text-transform: uppercase;
     text-align: center;
     margin-top: 3%;
+    transition: transform 1s, filter 0.5s;
 }
 
 /*Paragraph elements*/
@@ -223,18 +224,22 @@ footer {
     position: relative;
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
-    text-shadow: 5px 5px 10px 2px rgba(0,0,0,.8)
+    transition: transform 1s, filter 0.5s;
+}
+
+.Video_Text :hover {
+    transition: transform 1s, filter 0.5s;
 }
 
 .video_text_style {
-    text-shadow: 5px 5px 10px 2px rgba(0,0,0,.8)
+    text-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    transition: transform 1s, filter 0.5s;
 }
 
-/* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
-@keyframes moveVideoText {
-    from {top: -100vw;}
-    to {top: 0vw;}
+.video_text_style :hover {
+    transition: transform 1s, filter 0.5s;
 }
+
 
 /******* END OF VIDEO STYLING *******/
 
@@ -370,6 +375,11 @@ footer {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    transition: transform 1s, filter 0.5s;
+}
+
+.Column_1 :hover {
+    transition: transform 1s, filter 0.5s;
 }
 
 .Column_2 {
@@ -384,6 +394,10 @@ footer {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.Column_2 :hover {
+    transition: transform 1s, filter 0.5s;
 }
 
 
