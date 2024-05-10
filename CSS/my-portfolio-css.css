@@ -167,6 +167,7 @@ footer {
     text-decoration: none;
     font-family: Avant Garde, Helvetica;
     font-size: 3vh;
+    font-weight: bold;
     text-align: center;
     position: relative;
     -webkit-animation: moveNavText 5.75s;
