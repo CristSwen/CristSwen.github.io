@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSS",
+    "\\JS"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\JS\\my-portfolio-js.js",
   "PreviewInSolutionExplorer": false
 }

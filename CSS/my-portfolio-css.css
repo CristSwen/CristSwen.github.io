@@ -109,21 +109,24 @@ q {
 }
 
 /*Image elements*/
+/*
 img {
-    filter: grayscale(75%);   /*This rids our pictures of 75% of their color*/
-    border-radius: 8px; /* rounded corners */
-    max-width: 100%; /*Ensures all images stay within the width of their container */
+    filter: grayscale(75%);   
+    border-radius: 8px; 
+    max-width: 100%; 
     max-height: 100%;
-    display: block; /* By specifying the block display it ensure the images are able to be centered */
-    margin: auto auto auto auto; /* In combination with "margin-right: auto;" this centers the image */
+    display: block; 
+    margin: auto auto auto auto;
     transition: transform 1s, filter 0.5s;
 }
+    */
 
 /* Image hover effects */
+/*
 img:hover {
     filter: grayscale(5%);
     transition: transform 1s, filter 0.5s;
-}
+} */
 
 /*Styling for footer element*/
 footer {
@@ -381,6 +384,23 @@ footer {
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
+.column_images {
+    
+}
+
+.BlockInfo {
+    width: 60%;
+    padding: 2vw;
+    padding-top: 3%;
+    height: 30vw;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 3vw;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+}
+
 .Column_2 {
     float: right;
     width: 40%;
@@ -393,10 +413,22 @@ footer {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    z-index: 1;
+}
+
+.Column_2::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    z-index: 2;
 }
 
 
 /* This inserts somethinga after the content of the selected elements (in this case the elements with class "Row") */
+
 .Row:after{
     content: "";
     display: table;
@@ -413,7 +445,7 @@ footer {
     opacity: 1;
     transform: translateY(0px);
 }
-
+    
 
 /****** END OF TABLE STYLING *******/
 
