@@ -125,10 +125,11 @@ img {
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     float: left;
     margin-left: 5vw;
+    margin-right: 2vw;
 }
 
 .videotext_image {
-    display: table;
+    display: inline-flex;
 }
 
 
@@ -139,7 +140,7 @@ img {
     font-family: "Brush Script MT", Cursive;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 6vw;
+    margin-top: 7vw;
     transition: transform 1s, filter 0.5s;
 }
 
@@ -258,23 +259,13 @@ footer {
     width: 100%;
     padding: 20%;
     position: relative;
-    -webkit-animation: moveVideoText 5.75s;
-    animation: moveVideoText 5.75s;
-    transition: transform 1s, filter 0.5s;
 }
 
-.Video_Text :hover {
-    transition: transform 1s, filter 0.5s;
-}
 
 .video_text_style {
     text-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    transition: transform 1s, filter 0.5s;
 }
 
-.video_text_style :hover {
-    transition: transform 1s, filter 0.5s;
-}
 
 
 /******* END OF VIDEO STYLING *******/
@@ -284,7 +275,7 @@ footer {
 
 
 /********SLIDESHOW STYLING BEGINS HERE *******/
-
+/*
 #Slideshow_Background {
     background: rgba(255, 255, 255, 0.35);
 }
@@ -384,7 +375,7 @@ footer {
     from {opacity: .4;}
     to {opacity: 1;}
 }
-
+ */
 /******* SLIDESHOW STYLING ENDS HERE *********/
 
 
@@ -422,6 +413,7 @@ footer {
     margin-top: 3vw;
     margin-bottom: 3vw;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+
 }
 
 .column_images {
