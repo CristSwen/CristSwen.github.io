@@ -31,19 +31,21 @@ body.fade-out {
 }*/
 
 /*Hover effects for all the h1 in Index*/
+/*
 .Index_h1:hover {
     filter: grayscale(5%);
     transform: scale(1.1);
     transition: transform 1s, filter 0.5s;
 }
-
+*/
 /*Hover effects for all the h1 in Index*/
+/*
 .colored-text:hover {
     filter: grayscale(0%);
     transform: scale(1.1);
     transition: transform 1s, filter 0.5s;
 }
-
+*/
 /*Styling for all the h1 elements on the Index page*/
 .Index_h1 {
     font-family: "Brush Script MT", Cursive;
@@ -109,9 +111,11 @@ q {
 }
 
 /*Image elements*/
-/*
+
 img {
+    /*
     filter: grayscale(75%);   
+        */
     border-radius: 8px; 
     max-width: 100%; 
     max-height: 100%;
@@ -119,7 +123,7 @@ img {
     margin: auto auto auto auto;
     transition: transform 1s, filter 0.5s;
 }
-    */
+    
 
 /* Image hover effects */
 /*
@@ -607,6 +611,18 @@ button:hover, .form-container .btn:hover {
 }
 
 /******** END OF ABOUT ME PAGE STYLING**********/
+
+
+
+/*******  START OF FOOTER STYLING   *********/
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+/*******  END OF FOOTER STYLING   *********/
 
 
 
