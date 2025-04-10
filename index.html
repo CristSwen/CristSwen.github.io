@@ -3,8 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="./CSS/my-portfolio-css.css">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" />
-        <title>Cristina Swenson</title> 
+        <meta name="viewport" content="width=device-width" /> 
     </head>
 
     <!--BODY STARTS HERE-->
@@ -35,12 +34,19 @@
             </video>
         </div>
 
+        
+
         <!--Video Text-->
         <div class="Video_text">
-            <h1 class="colored-text">Cristina's Portfolio</h1>
+            <div class="videotext_image">
+                <img class="videoimage" src="images/myselfnormal.jpg" alt="not found" />
+                <h1 class="colored-text">Cristina's Portfolio</h1>
+            </div>
+            
             <strong>
                 <p class="center video_text_style">
-                    <q>Any fool can write code that a computer can understand.
+                    <q>
+                        Any fool can write code that a computer can understand.
                         <br>Good programmers write code that humans can understand.
                         <br>
                     </q>
@@ -54,7 +60,6 @@
         </div>
 
         <!--BACKGROUNDGROUND VIDEO ENDS HERE-->
-
         <!--SLIDESHOW SECTION BEGINS HERE-->
         <div id="Slideshow">
             <div id="Slideshow_Background">
@@ -102,12 +107,12 @@
                 <br>
 
                 <div style="text-align: center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
                 </div>
             </div>
         </div>
@@ -135,26 +140,7 @@
 
 
             <!--ABOUT SECTION ENDS HERE-->
-            <!--GITHUB SECTION STARTS HERE-->
-            <!--<div class="Row scroll-section" Id="GitHub">
-        Left Column
-        <div class="Column_1">
-            <h1 class="Index_h1">GitHub</h1>
-
-            <p>
-                You can view my coding projects on my GitHub profile here:
-                <br>
-                <p class="center"><a href="https://github.com/CristSwen" target="_blank">Cristina's GitHub</a></p>
-            </p>
-        </div>
-        Right Column
-        <div class="Column_2">
-            <a href="https://github.com/CristSwen" target="_blank"><img class="column_images" src="images/GitHub.png" alt="No gitHub image"></a>
-        </div>
-    </div>-->
-            <!--GITHUB SECTION ENDS HERE-->
             <!--COLUMN SECTION STARTS HERE-->
-                
             <!--ABOUT ME AND PROJ SECTION STARTS HERE-->
             <div class="Row scroll-section" Id="RecentProject">
                 <!--Left Column-->
@@ -167,7 +153,6 @@
                 </div>
             </div>
             <!--ABOUT ME AND PROJ SECTION ENDS HERE-->
-
             <!--PROJECT SECTION STARTS HERE-->
             <div class="Row scroll-section" Id="RecentProject">
                 <!--Left Column-->
@@ -180,7 +165,6 @@
                 </div>
             </div>
             <!--PROJECT SECTION ENDS HERE-->
-
             <!--LANGUAGES AND CONTACT SECTION STARTS HERE-->
             <div class="Row scroll-section" Id="RecentProject">
                 <!--Left Column-->
@@ -207,18 +191,19 @@
             <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <!--Contact image, left column-->
             <div class="form-popup" id="myForm">
-               <!-- <img src="images/black-cat.jpg" alt="Supposed Black cat image">-->
+                <!-- <img src="images/black-cat.jpg" alt="Supposed Black cat image">-->
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/xvonzypk" method="POST" class="form-container"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="https://formspree.io/f/xvonzypk" method="POST" class="form-container">
+                    <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label for="name"><b>Name:</b></label>
-                        <input type="text" placeholder="Please enter your name here">
+                    <input type="text" placeholder="Please enter your name here">
                     <label for="email"><b>Email:</b></label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
                     <label for="phone"><b>Phone Number:</b></label>
-                        <input type="text" id="phone_Number" name="phone_Number" placeholder="Please enter your Phone Number here">
+                    <input type="text" id="phone_Number" name="phone_Number" placeholder="Please enter your Phone Number here">
                     <label for="message"><b>Message:</b></label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+
                     <button type="submit" class="btn">SUBMIT</button>
                     <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
                 </form>
@@ -227,7 +212,6 @@
 
 
         <!--CONTACT SECTION ENDS HERE-->
-        
         <!--Fade Effects-->
         <script>
             document.body.classList.add('fade-out');
@@ -236,14 +220,15 @@
             });
         </script>
         <!--End fade effects-->
-
         <!--FOOTER SECTION STARTS HERE-->
         <footer>
             <p>
-                <p class="center footer">Cristina Swenson </br>
-            cristswen@gmail.com</br>
-                    (801)598-2495</p>
-                <br>
+            <p class="center footer">
+                Cristina Swenson </br>
+                cristswen@gmail.com</br>
+                (801)598-2495
+            </p>
+            <br>
             </p>
         </footer>
         <!--FOOTER SECTION ENDS HERE-->
