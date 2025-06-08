@@ -81,6 +81,11 @@ p:hover {
     color: white;
 }
 
+.footer_center {
+    text-align: center;
+    color: white;
+}
+
 /*Center class hover effect - this only affects the quote, github link, and footer*/
 .center:hover {
     transition: transform 2s;
