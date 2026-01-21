@@ -393,37 +393,24 @@ footer {
     /*background-color: #F4A460;*/
     background-color: #AA4A44;
     box-shadow: 5px -5px 10px 2px rgba(0,0,0,.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-.Column_1 {
-    float: left;
-    width: 40%;
-    padding: 2vw;
-    padding-top: 3%;
-    height: 30vw;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-}
 
 .Column_test1 {
-    float: left;
-    width: 40%;
+    display: flex;
     height: 30vw;
     border-radius: 25px;
-    margin-left: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
+    overflow: hidden;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 
 }
 
-.column_images {
-    
-}
 
 .BlockInfo {
     width: 60%;
@@ -438,37 +425,15 @@ footer {
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
 }
 
-.Column_2 {
-    float: right;
+.Row {
     width: 40%;
-    padding: 2vw;
-    padding-top: 3%;
-    height: 30vw; /*200vw*/
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    margin-right: 5vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-    z-index: 1;
+    display: flex;
 }
-
-.Column_2::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 50%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    z-index: 2;
-}
-
 
 /* This inserts somethinga after the content of the selected elements (in this case the elements with class "Row") */
 
 .Row:after{
     content: "";
-    display: table;
     clear: both;
 }
 
