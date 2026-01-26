@@ -426,8 +426,8 @@ footer {
 }
 
 .Row {
-    width: 40%;
-    display: flex;
+    flex: 0 1 48%;
+    min-width: 0;
 }
 
 /* This inserts somethinga after the content of the selected elements (in this case the elements with class "Row") */
@@ -694,6 +694,13 @@ button:hover, .form-container .btn:hover {
 
     .colored-text {
         font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .row{
+        flex: 0 1 80%;
+        min-width: 0;
     }
 }
 
