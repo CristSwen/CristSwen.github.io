@@ -698,9 +698,13 @@ button:hover, .form-container .btn:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    .row{
+    .Row{
         flex: 0 1 80%;
         min-width: 0;
+    }
+
+    .Column_test1 {
+        height: 50vw;
     }
 }
 
